@@ -1,4 +1,4 @@
-## 한국교통대학교 종합정보시스템 (is.ut.ac.kr) Vulnerabilities
+## 한국교통대학교 종합정보시스템 (is.ut.ac.kr) Security vulnerabilities
 
 ### 학번 조회
 * Input your name in Korean and birthday
