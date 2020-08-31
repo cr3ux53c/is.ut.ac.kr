@@ -22,4 +22,5 @@
 * Change \<YEAR\> to the year you want to query
 
 ---
+### Report Designer Editor V5.0 (*.mrd file editor): http://ufdev.hmm21.com/Dist/index.html, [Download](http://ufdev.hmm21.com/Dist/download/ReportDesigner5.0u.zip)
 ### Last confirmed in 2020-08-31.
