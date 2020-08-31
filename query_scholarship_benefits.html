@@ -1,32 +1,15 @@
-<!DOCTYPE html>
-<html style="margin:0;height:100%">
+<html>
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<meta http-equiv="Content-Script-Type" content="text/javascript" />
-		<meta http-equiv="Content-Style-Type" content="text/css" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<title>Crownix HTML5 Viewer</title>
 		<script src="https://is.ut.ac.kr/js/jquery-1.11.0.min.js"></script>
-		<!--[if !IE]><!-->
 		<script src="https://is.ut.ac.kr/js/crownix-viewer.min.js"></script>
-		<!--<![endif]-->
-		<!--[if gt IE 8]>
-		<script src="https://is.ut.ac.kr/js/crownix-viewer.min.js"></script>
-		<!--<![endif]-->
-		<!--[if lte IE 8]>
-		<script src="https://is.ut.ac.kr/js/crownix-viewer-ie8.min.js"></script>
-		<!--<![endif]-->
-		
 		<link rel="stylesheet" type="text/css" href="https://is.ut.ac.kr/css/crownix-viewer.min.css">
 	</head>
-	<body leftmargin="0px" rightmargin="0px" topmargin="0px" bottommargin="0px">
+	<body>
 		<div id="crownix-viewer" style="position:absolute;width:100%;height:100%"></div>
 		<script>
 			window.onload = function(){
 				var viewer = new m2soft.crownix.Viewer('https://is.ut.ac.kr/ReportingServer/service', 'crownix-viewer');
-				//viewer.setStateLessMode(false);
 				viewer.openFile("https://is.ut.ac.kr/GA/RG/RG01/MRD/csga_06011.mrd", "/rp  [] [<STUDENT-NUMBER>] [] [<STUDENT-NUMBER>] [] [] [] [<STUDENT-NUMBER>] /rl [] /rfn [https://is.ut.ac.kr/DataServer/rdagent.jsp] /rsn [jdbc/usop]", {timeout : 1800});
-				rdopen_output();
 			};
 		</script>
 	</body>
