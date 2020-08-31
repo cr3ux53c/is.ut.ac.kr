@@ -1,5 +1,10 @@
 ## 한국교통대학교 종합정보시스템 (is.ut.ac.kr) Vulnerabilities
 
+### 학번 조회
+* Input your name in Korean and birthday
+* This page requires Adobe flash player
+    * `https://is.ut.ac.kr/userSearch.jsp`
+
 ### 성적표 출력
 * Request in Internet Explorer to install cxViewer plugin
 * Query string: Change \<STUDENT-NUMBER\> to your student number
